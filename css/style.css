@@ -216,16 +216,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 56px;
   width: auto;
   display: block;
-  /* Logo has white/transparent background — needs to stand out on dark navbar */
-  background: var(--off-white);
-  padding: 4px 10px;
-  border-radius: 4px;
 }
 
-/* Footer logo — larger, no background needed since footer is also dark */
 .footer-brand .nav-logo img {
   height: 72px;
-  padding: 6px 12px;
 }
 
 .nav-menu {
